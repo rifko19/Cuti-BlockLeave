@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Konversi Excel ke employees.json</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="top">
+    <div>
+      <h1>Konversi data pegawai</h1>
+      <p>Excel (.xlsx) menjadi Data/employees.json</p>
+    </div>
+  </header>
+  <main>
+    <section class="panel">
+      <h2>1. Pilih file Excel</h2>
+      <input type="file" id="file" accept=".xlsx,.xls,.csv">
+      <p class="legend">Baris pertama yang berisi judul kolom dipakai sebagai header. Data diproses di browser Anda, tidak dikirim ke mana pun.</p>
+    </section>
+
+    <section class="panel" id="mapPanel" hidden>
+      <h2>2. Cocokkan kolom</h2>
+      <div class="grid">
+        <label>Kolom PN <select id="colPn"></select></label>
+        <label>Kolom Nama <select id="colName"></select></label>
+        <label>Kolom Jabatan <select id="colPos"></select></label>
+        <label>Kolom Unit kerja <select id="colUker"></select></label>
+        <label>Kolom Kategori <select id="colKat"></select></label>
+      </div>
+    </section>
+
+    <section class="panel" id="resultPanel" hidden>
+      <h2>3. Hasil</h2>
+      <div id="summary"></div>
+      <div class="scroll"><table id="preview"></table></div>
+      <p><button type="button" id="btnDownload" class="btn primary">Unduh employees.json</button></p>
+      <p class="legend">Simpan file hasilnya ke folder <strong>Data</strong>, ganti file employees.json yang lama.</p>
+    </section>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <script src="JS/Converter.js"></script>
+</body>
+</html>

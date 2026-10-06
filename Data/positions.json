@@ -1,0 +1,40 @@
+{
+  "positions": [
+    {
+      "id": "POS001",
+      "name": "SVP",
+      "level": "executive",
+      "max_per_week": 2,
+      "description": "Senior Vice President"
+    },
+    {
+      "id": "POS002",
+      "name": "MANAJER",
+      "level": "management",
+      "max_per_week": 2,
+      "description": "Manager"
+    },
+    {
+      "id": "POS003",
+      "name": "SOL",
+      "level": "management",
+      "max_per_week": 2,
+      "description": "Service Operation Lead"
+    }
+  ],
+  "other_positions": {
+    "description": "Semua jabatan selain SVP/MANAJER/SOL",
+    "level": "staff",
+    "max_per_week": 5
+  },
+  "rules": {
+    "allowed_weeks": [1, 2, 3],
+    "allowed_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "allowed_days_id": [1, 2, 3, 4, 5],
+    "description": "Cuti hanya bisa diambil di minggu 1, 2, atau 3, hari kerja Senin-Jumat"
+  },
+  "holiday_rule": {
+    "description": "Jika ada tanggal merah (national holiday atau cuti bersama) di dalam 1 minggu, maka seluruh minggu tersebut TIDAK boleh digunakan untuk pengajuan cuti",
+    "example": "Jika Selasa ada tanggal merah, minggu yang mengandung Selasa tersebut tidak boleh digunakan"
+  }
+}

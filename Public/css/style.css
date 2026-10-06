@@ -1,0 +1,143 @@
+:root {
+  --bg: #f3f6fa;
+  --card: #ffffff;
+  --ink: #1b2430;
+  --muted: #5f6b7a;
+  --line: #d9e0e8;
+  --brand: #0b4f8a;
+  --ok: #1d7a46;
+  --warn: #a15c00;
+  --bad: #b3261e;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+/* Header */
+.top { background: var(--brand); color: #fff; padding: 20px 24px; }
+.top h1 { margin: 0; font-size: 1.5rem; }
+.top p { margin: 4px 0 0; opacity: .85; font-size: .95rem; }
+
+/* Layout: minmax(0,1fr) mencegah tabel lebar mendorong halaman ke kanan */
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 16px 48px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 20px;
+}
+.panel {
+  min-width: 0;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 20px;
+}
+.panel h2 { margin: 0 0 14px; font-size: 1.1rem; }
+.row { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 10px; }
+.row h2 { margin: 0; }
+
+/* Form */
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); gap: 14px; margin-bottom: 12px; }
+label { display: grid; gap: 4px; font-size: .9rem; color: var(--muted); min-width: 0; }
+label + label { margin-top: 0; }
+input, select {
+  font: inherit; color: var(--ink); padding: 8px 10px; width: 100%; min-width: 0;
+  border: 1px solid var(--line); border-radius: 6px; background: #fff;
+}
+input:focus-visible, select:focus-visible, .btn:focus-visible { outline: 2px solid var(--brand); outline-offset: 1px; }
+.btn {
+  font: inherit; padding: 8px 16px; border-radius: 6px; cursor: pointer;
+  border: 1px solid var(--brand); background: #fff; color: var(--brand);
+}
+.btn.primary { background: var(--brand); color: #fff; margin-top: 4px; }
+.btn.small { padding: 3px 10px; font-size: .85rem; border-color: var(--bad); color: var(--bad); }
+#formMsg { min-height: 1.4em; margin: 10px 0 4px; font-size: .92rem; }
+#formMsg.err { color: var(--bad); }
+#formMsg.ok { color: var(--ok); }
+
+/* Legend */
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: center; font-size: .85rem; color: var(--muted); margin: 0 0 12px; }
+.dot { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+.dot.holiday { background: #fdeaea; border: 1px solid var(--bad); }
+.dot.full { background: #fff1db; border: 1px solid var(--warn); }
+.dot.off { background: #eef2f7; border: 1px solid var(--line); }
+
+/* Tabel */
+.scroll { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+th { background: #eef2f7; font-weight: 600; }
+td.empty { color: var(--muted); text-align: center; white-space: normal; }
+#weekTable td { white-space: normal; }
+#weekTable td.wide { min-width: 220px; }
+td select { width: auto; padding: 4px 8px; }
+.tag { padding: 2px 8px; border-radius: 10px; font-size: .8rem; white-space: nowrap; }
+.tag.open { background: #e0f3e8; color: var(--ok); }
+.tag.full { background: #fdeaea; color: var(--bad); }
+.tag.block { background: #fff1db; color: var(--warn); }
+#monthFilter { width: auto; min-width: 160px; }
+
+/* Date picker */
+.flatpickr-input[readonly] { cursor: pointer; }
+.flatpickr-day.flatpickr-disabled, .flatpickr-day.flatpickr-disabled:hover { cursor: not-allowed; }
+.flatpickr-day.flatpickr-disabled.is-holiday,
+.flatpickr-day.flatpickr-disabled.is-holiday:hover { color: var(--bad); font-weight: 600; background: #fdeaea; }
+.flatpickr-day.flatpickr-disabled.is-full,
+.flatpickr-day.flatpickr-disabled.is-full:hover { background: #fff1db; color: var(--warn); }
+.flatpickr-day.selected { background: var(--brand); border-color: var(--brand); }
+
+/* Tablet */
+@media (max-width: 900px) {
+  .panel { padding: 16px; }
+}
+
+/* HP: tabel berubah menjadi kartu */
+@media (max-width: 720px) {
+  .top { padding: 16px; }
+  .top h1 { font-size: 1.25rem; }
+  main { padding: 12px 10px 32px; gap: 14px; }
+  .panel { padding: 14px; }
+  .btn.primary { width: 100%; padding: 11px 16px; }
+  #monthFilter { width: 100%; }
+  .row { align-items: stretch; }
+  .row .btn { width: 100%; }
+  input, select { font-size: 16px; }   /* mencegah zoom otomatis di iPhone */
+
+  .scroll { overflow: visible; }
+  table, tbody, tr, td { display: block; width: 100%; }
+  thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  tr { border: 1px solid var(--line); border-radius: 8px; padding: 6px 12px; margin-bottom: 10px; background: #fff; }
+  td, #weekTable td {
+    display: flex; justify-content: space-between; align-items: center; gap: 12px;
+    border: 0; padding: 5px 0; white-space: normal; text-align: right; min-width: 0;
+  }
+  td::before { content: attr(data-label); flex: 0 0 38%; text-align: left; color: var(--muted); font-weight: 600; font-size: .85rem; }
+  td[data-label=""]::before, td.empty::before { display: none; }
+  td[data-label=""] { justify-content: flex-end; padding-top: 8px; border-top: 1px dashed var(--line); margin-top: 4px; }
+  td.empty { justify-content: center; text-align: center; }
+  #weekTable td.wide { min-width: 0; }
+  td select { max-width: 60%; }
+}
+
+/* Login admin */
+[hidden] { display: none !important; }
+.top { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.auth { display: flex; align-items: center; gap: 10px; font-size: .9rem; }
+.btn.light { background: transparent; color: #fff; border-color: rgba(255,255,255,.7); padding: 6px 14px; }
+dialog { border: 1px solid var(--line); border-radius: 8px; padding: 20px; width: min(360px, calc(100vw - 32px)); color: var(--ink); }
+dialog::backdrop { background: rgba(20, 30, 45, .45); }
+dialog h2 { margin: 0 0 14px; font-size: 1.1rem; }
+dialog form { display: grid; gap: 12px; }
+dialog .actions { display: flex; justify-content: flex-end; gap: 10px; }
+dialog .btn.primary { margin-top: 0; }
+#loginMsg { min-height: 1.2em; font-size: .9rem; color: var(--bad); }
+@media (max-width: 720px) { dialog .btn.primary { width: auto; } }

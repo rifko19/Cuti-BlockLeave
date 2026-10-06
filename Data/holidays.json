@@ -1,0 +1,131 @@
+{
+  "nationalHolidays": [
+    {
+      "date": "2027-01-01",
+      "description": "Tahun Baru 2027 Masehi",
+      "type": "national_holiday"
+    },
+    {
+      "date": "2027-01-05",
+      "description": "Isra Mikraj Nabi Muhammad S.A.W. 1448 H",
+      "type": "national_holiday"
+    },
+    {
+      "date": "2027-02-06",
+      "description": "Tahun Baru Imlek 2578 Kongzili",
+      "type": "national_holiday"
+    },
+    {
+      "date": "2027-03-08",
+      "description": "Hari Suci Nyepi Tahun Baru Saka 1949",
+      "type": "national_holiday"
+    },
+    {
+      "date": "2027-03-10",
+      "description": "Hari Raya Idul Fitri 1448 Hijriah",
+      "type": "national_holiday"
+    },
+    {
+      "date": "2027-03-11",
+      "description": "Hari Raya Idul Fitri 1448 Hijriah",
+      "type": "national_holiday"
+    },
+    {
+      "date": "2027-03-26",
+      "description": "Wafat Yesus Kristus",
+      "type": "national_holiday"
+    },
+    {
+      "date": "2027-03-28",
+      "description": "Kebangkitan Yesus Kristus (Hari Paskah)",
+      "type": "national_holiday"
+    },
+    {
+      "date": "2027-05-01",
+      "description": "Hari Buruh Internasional",
+      "type": "national_holiday"
+    },
+    {
+      "date": "2027-05-06",
+      "description": "Kenaikan Yesus Kristus",
+      "type": "national_holiday"
+    },
+    {
+      "date": "2027-05-17",
+      "description": "Idul Adha 1448 Hijriah",
+      "type": "national_holiday"
+    },
+    {
+      "date": "2027-05-20",
+      "description": "Hari Raya Waisak 2571 BE",
+      "type": "national_holiday"
+    },
+    {
+      "date": "2027-06-01",
+      "description": "Hari Lahir Pancasila",
+      "type": "national_holiday"
+    },
+    {
+      "date": "2027-06-06",
+      "description": "1 Muharam Tahun Baru Islam 1449 H",
+      "type": "national_holiday"
+    },
+    {
+      "date": "2027-08-15",
+      "description": "Maulid Nabi Muhammad S.A.W.",
+      "type": "national_holiday"
+    },
+    {
+      "date": "2027-08-17",
+      "description": "Proklamasi Kemerdekaan",
+      "type": "national_holiday"
+    },
+    {
+      "date": "2027-12-25",
+      "description": "Kelahiran Yesus Kristus (Hari Raya Natal)",
+      "type": "national_holiday"
+    }
+  ],
+  "jointHolidays": [
+    {
+      "date": "2027-02-05",
+      "description": "Cuti Bersama Tahun Baru Imlek 2578 Kongzili",
+      "type": "joint_holiday"
+    },
+    {
+      "date": "2027-03-09",
+      "description": "Cuti Bersama Hari Raya Idul Fitri 1448 Hijriah",
+      "type": "joint_holiday"
+    },
+    {
+      "date": "2027-03-12",
+      "description": "Cuti Bersama Hari Raya Idul Fitri 1448 Hijriah",
+      "type": "joint_holiday"
+    },
+    {
+      "date": "2027-03-15",
+      "description": "Cuti Bersama Hari Raya Idul Fitri 1448 Hijriah",
+      "type": "joint_holiday"
+    },
+    {
+      "date": "2027-03-25",
+      "description": "Cuti Bersama Wafat Yesus Kristus",
+      "type": "joint_holiday"
+    },
+    {
+      "date": "2027-05-18",
+      "description": "Cuti Bersama Idul Adha 1448 Hijriah",
+      "type": "joint_holiday"
+    },
+    {
+      "date": "2027-05-19",
+      "description": "Cuti Bersama Hari Raya Waisak 2571 BE",
+      "type": "joint_holiday"
+    },
+    {
+      "date": "2027-12-24",
+      "description": "Cuti Bersama Kelahiran Yesus Kristus (Hari Raya Natal)",
+      "type": "joint_holiday"
+    }
+  ]
+}

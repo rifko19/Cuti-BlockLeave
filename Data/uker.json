@@ -1,0 +1,101 @@
+{
+  "uker_list": [
+    {
+      "id": "KC001",
+      "name": "KC Kayu Agung",
+      "type": "Kantor Cabang"
+    },
+    {
+      "id": "KCP001",
+      "name": "KCP Tugu Mulyo",
+      "type": "Kantor Cabang Pembantu"
+    },
+    {
+      "id": "KCP002",
+      "name": "KCP Indralaya",
+      "type": "Kantor Cabang Pembantu"
+    },
+    {
+      "id": "KOP001",
+      "name": "Cinta Manis",
+      "type": "Kantor Operasional"
+    },
+    {
+      "id": "KOP002",
+      "name": "Indralaya",
+      "type": "Kantor Operasional"
+    },
+    {
+      "id": "KOP003",
+      "name": "Kayu Agung I",
+      "type": "Kantor Operasional"
+    },
+    {
+      "id": "KOP004",
+      "name": "Lubuk Seberuk",
+      "type": "Kantor Operasional"
+    },
+    {
+      "id": "KOP005",
+      "name": "Pampangan",
+      "type": "Kantor Operasional"
+    },
+    {
+      "id": "KOP006",
+      "name": "Pematang Panggang",
+      "type": "Kantor Operasional"
+    },
+    {
+      "id": "KOP007",
+      "name": "Sirah Pulau Padang",
+      "type": "Kantor Operasional"
+    },
+    {
+      "id": "KOP008",
+      "name": "Simpang Timbangan",
+      "type": "Kantor Operasional"
+    },
+    {
+      "id": "KOP009",
+      "name": "Tanjung Batu",
+      "type": "Kantor Operasional"
+    },
+    {
+      "id": "KOP010",
+      "name": "Tanjung Lubuk",
+      "type": "Kantor Operasional"
+    },
+    {
+      "id": "KOP011",
+      "name": "Tanjung Raja",
+      "type": "Kantor Operasional"
+    },
+    {
+      "id": "KOP012",
+      "name": "Tugu Mulyo",
+      "type": "Kantor Operasional"
+    },
+    {
+      "id": "KOP013",
+      "name": "Kemang Indah",
+      "type": "Kantor Operasional"
+    },
+    {
+      "id": "KOP014",
+      "name": "Catur Tunggal",
+      "type": "Kantor Operasional"
+    },
+    {
+      "id": "KOP015",
+      "name": "Muara Burnai",
+      "type": "Kantor Operasional"
+    },
+    {
+      "id": "KOP016",
+      "name": "Sumber Hidup",
+      "type": "Kantor Operasional"
+    }
+  ],
+  "seluruh_uker": true,
+  "notes": "Limit pengajuan cuti berlaku untuk SELURUH UKER, bukan per UKER"
+}

@@ -1,0 +1,1873 @@
+{
+  "employees": [
+    {
+      "pn": "00005670",
+      "name": "Jainah",
+      "position": "SUPERVISOR OPERASIONAL & LAYANAN",
+      "uker": "KAYU AGUNG I",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00005715",
+      "name": "Eis Nenden",
+      "position": "KEPALA UNIT",
+      "uker": "TANJUNG LUBUK",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00005744",
+      "name": "Rendy S.Adipurnama",
+      "position": "MANAJER BISNIS MIKRO",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00006832",
+      "name": "Noviliana",
+      "position": "PETUGAS EKOSISTEM BISNIS MIKRO",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00006863",
+      "name": "Robiyani",
+      "position": "PETUGAS PENUNJANG OPERASIONAL",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00050565",
+      "name": "Rohilawati",
+      "position": "PETUGAS OPERASIONAL KREDIT",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00050653",
+      "name": "Danu Pramono",
+      "position": "MANAJER BISNIS MIKRO",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00052240",
+      "name": "Zailani",
+      "position": "MICRO COLLECTION & RECOVERY UNIT HEAD",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00052380",
+      "name": "Devie Meisiska",
+      "position": "PETUGAS PENUNJANG OPERASIONAL",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00055715",
+      "name": "Nurliyamna",
+      "position": "PJ. SUPERVISOR OPERASIONAL KREDIT",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00055736",
+      "name": "Andy Jorista",
+      "position": "KEPALA UNIT",
+      "uker": "PEMATANG PANGGANG",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00055738",
+      "name": "Muhammad Hendra Umairi",
+      "position": "KEPALA UNIT",
+      "uker": "TUGU MULYO",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00055886",
+      "name": "Edy Koesworo",
+      "position": "SUPERVISOR OPERASIONAL & LAYANAN",
+      "uker": "SUMBER HIDUP",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00055916",
+      "name": "Budiyanto",
+      "position": "MANAJER BISNIS MIKRO",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00055924",
+      "name": "Hermansyah",
+      "position": "KEPALA UNIT",
+      "uker": "INDRALAYA",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00055970",
+      "name": "Saidil Mursalin",
+      "position": "ASISTEN MANAJER OPERASIONAL & LAYANAN",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00055983",
+      "name": "Sri Handayani",
+      "position": "SUPERVISOR OPERASIONAL & LAYANAN",
+      "uker": "KCP INDRALAYA",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00058242",
+      "name": "Isnaini",
+      "position": "RM BISNIS KONSUMER - BRIGUNA",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00059408",
+      "name": "Whendrawan Nusatyo Adi",
+      "position": "PEMIMPIN CABANG",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00060666",
+      "name": "Wida Palestin Adha",
+      "position": "MANAJER DANA & TRANSAKSI",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00060805",
+      "name": "M. Daruri",
+      "position": "RM SME TYPE A",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00060806",
+      "name": "Saiful Anwar",
+      "position": "KEPALA UNIT",
+      "uker": "KEMANG INDAH",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00073274",
+      "name": "Ike Monika",
+      "position": "PJ. PEMIMPIN CABANG PEMBANTU",
+      "uker": "KCP INDRALAYA",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00074411",
+      "name": "Herta Putra Praja",
+      "position": "RM SMALL RECOVERY",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00083735",
+      "name": "David Simatupang",
+      "position": "KEPALA UNIT",
+      "uker": "MUARA BURNAI",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00083737",
+      "name": "Adri Wijaya",
+      "position": "SUPERVISOR OPERASIONAL & LAYANAN",
+      "uker": "PEMATANG PANGGANG",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00087495",
+      "name": "Amirza Putra Pratama",
+      "position": "KEPALA UNIT",
+      "uker": "SUMBER HIDUP",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00087600",
+      "name": "Usman Sylvayadi",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "TANJUNG RAJA",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00110963",
+      "name": "Bayu Pratama",
+      "position": "KEPALA UNIT",
+      "uker": "CATUR TUNGGAL",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00111257",
+      "name": "Dicky Syahputra",
+      "position": "KEPALA UNIT",
+      "uker": "CINTA MANIS",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00111458",
+      "name": "Fajar Ariyanto",
+      "position": "KEPALA UNIT",
+      "uker": "LUBUK SEBERUK",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00111532",
+      "name": "Herlin Meidasari",
+      "position": "SUPERVISOR OPERASIONAL & LAYANAN",
+      "uker": "TANJUNG LUBUK",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00111798",
+      "name": "Muslich",
+      "position": "KEPALA UNIT",
+      "uker": "TANJUNG RAJA",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00118616",
+      "name": "Heryuliansyah",
+      "position": "KEPALA UNIT",
+      "uker": "TANJUNG BATU",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00126624",
+      "name": "Juhadi Sastromijoyo",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "TANJUNG RAJA",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00139484",
+      "name": "Ridho Aliansyah Aldino",
+      "position": "PEKERJA KHUSUS",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00139890",
+      "name": "Agustia",
+      "position": "MANTRI BRIGUNA",
+      "uker": "SIMPANG TIMBANGAN",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00139893",
+      "name": "Yandri Ulpa Valintino",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "PAMPANGAN",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00140729",
+      "name": "Mashuri Putranto",
+      "position": "MANTRI RECOVERY",
+      "uker": "CINTA MANIS",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00141696",
+      "name": "Maisar Gazali",
+      "position": "MANAJER BISNIS KECIL",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00142250",
+      "name": "Deska Satria",
+      "position": "ASSOCIATE MANTRI 2",
+      "uker": "SUMBER HIDUP",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00145892",
+      "name": "Herdan",
+      "position": "KEPALA UNIT",
+      "uker": "SIRAH PULAU PADANG",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00146752",
+      "name": "Darul Qutni",
+      "position": "RM SME TYPE A",
+      "uker": "KCP TUGUMULYO",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00152536",
+      "name": "Sigit Nugroho",
+      "position": "KEPALA UNIT",
+      "uker": "PAMPANGAN",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00153112",
+      "name": "Ayu Antika Kurnia Kasih",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "INDRALAYA",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00153480",
+      "name": "Dery Kurnia",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "PAMPANGAN",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00153481",
+      "name": "Riyan Saputra",
+      "position": "ASSOCIATE MANTRI 2",
+      "uker": "KAYU AGUNG I",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00153482",
+      "name": "Sabrun Mukhlis",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "SIRAH PULAU PADANG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00153486",
+      "name": "Cuendra Sugiarto",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "KEMANG INDAH",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00153487",
+      "name": "Dedi Agusaputra",
+      "position": "MANTRI RECOVERY",
+      "uker": "TANJUNG LUBUK",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00153492",
+      "name": "Febriansyah",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "PEMATANG PANGGANG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00155412",
+      "name": "Sjafruddin Chandra",
+      "position": "PEMIMPIN CABANG PEMBANTU",
+      "uker": "KCP TUGUMULYO",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00155570",
+      "name": "Abdullah",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "KAYU AGUNG I",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00161962",
+      "name": "Hari Rama Yanto",
+      "position": "ASSOCIATE MANTRI 2",
+      "uker": "TUGU MULYO",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00161970",
+      "name": "Boby Wijaya",
+      "position": "PEKERJA DALAM PEMBINAAN",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00161978",
+      "name": "Andriansyah",
+      "position": "MANTRI RECOVERY",
+      "uker": "TANJUNG RAJA",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00162124",
+      "name": "Neli Dian Sari",
+      "position": "SUPERVISOR",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00169747",
+      "name": "Rekki Martha",
+      "position": "RM SME QUALITY",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00170123",
+      "name": "Ak Septian Wijaya",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "KEMANG INDAH",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00170127",
+      "name": "Nurmuhammad",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "SIMPANG TIMBANGAN",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00172143",
+      "name": "Ari Ardiyansa",
+      "position": "SUPERVISOR OPERASIONAL & LAYANAN",
+      "uker": "SIRAH PULAU PADANG",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00172337",
+      "name": "Fredi Siswanto",
+      "position": "RM MIKRO",
+      "uker": "KCP INDRALAYA",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00173138",
+      "name": "Ariyanto",
+      "position": "SUPERVISOR OPERASIONAL & LAYANAN",
+      "uker": "KEMANG INDAH",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00180627",
+      "name": "Indra Pratama",
+      "position": "ASSOCIATE MANTRI 2",
+      "uker": "LUBUK SEBERUK",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00181637",
+      "name": "Helen Mayasari",
+      "position": "SUPERVISOR OPERASIONAL & LAYANAN",
+      "uker": "SIMPANG TIMBANGAN",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00182664",
+      "name": "Angga Aditya Rakopa",
+      "position": "CONSUMER & SME RECOVERY ASS. MANAGER",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00187761",
+      "name": "Lindo Panduwinata",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "TUGU MULYO",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00202409",
+      "name": "Yoviansyah",
+      "position": "CONSUMER & SME COLLECTION ASS. MANAGER",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00206349",
+      "name": "Ida Desliani",
+      "position": "RMFT BUSINESS",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00208137",
+      "name": "Erwin",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "TANJUNG LUBUK",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00208142",
+      "name": "Arjo Meka",
+      "position": "SUPERVISOR OPERASIONAL & LAYANAN",
+      "uker": "PAMPANGAN",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00208153",
+      "name": "Novita Kartika Putri",
+      "position": "RMFT INDIVIDU BRANCH",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00208154",
+      "name": "Julia Cipta Adhyati",
+      "position": "SUPERVISOR OPERASIONAL & LAYANAN",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00208607",
+      "name": "Abdullah",
+      "position": "SUPERVISOR OPERASIONAL & LAYANAN",
+      "uker": "CATUR TUNGGAL",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00210843",
+      "name": "Nuari Yusuf",
+      "position": "RM SME TYPE A",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00210844",
+      "name": "Dendy Marfian",
+      "position": "RM SME TYPE A",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00214539",
+      "name": "Reno Perbawaijaya",
+      "position": "PJ. KEPALA UNIT",
+      "uker": "KAYU AGUNG I",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00215310",
+      "name": "Ranthi Vebrita",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "MUARA BURNAI",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00216958",
+      "name": "Azrian Martadinata",
+      "position": "KEPALA UNIT",
+      "uker": "SIMPANG TIMBANGAN",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00217966",
+      "name": "Rendi Pramono",
+      "position": "ASSOCIATE MANTRI 2",
+      "uker": "KAYU AGUNG I",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00217967",
+      "name": "Eirfantory Idhiarno",
+      "position": "ASSOCIATE MANTRI 2",
+      "uker": "SIRAH PULAU PADANG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00220524",
+      "name": "Gerry Ramadhon",
+      "position": "RM SME TYPE A",
+      "uker": "KCP INDRALAYA",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00222061",
+      "name": "Adhe Putra",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "SIMPANG TIMBANGAN",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00222062",
+      "name": "Rizki Putra Tama",
+      "position": "ASSOCIATE MANTRI 2",
+      "uker": "CATUR TUNGGAL",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00222064",
+      "name": "Tri Tauhid Jemiter",
+      "position": "ASSOCIATE MANTRI 2",
+      "uker": "TUGU MULYO",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00222065",
+      "name": "Erio Yulanda",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "PAMPANGAN",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00222066",
+      "name": "Dery Saputra",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "KAYU AGUNG I",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00222068",
+      "name": "Leon Piter",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "TANJUNG RAJA",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00233703",
+      "name": "Fikri Pranata",
+      "position": "PETUGAS IT & E-CHANNEL",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00235666",
+      "name": "Heny Fadilah",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "TANJUNG BATU",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00235668",
+      "name": "Muhamad Fauzi",
+      "position": "MANTRI RECOVERY",
+      "uker": "INDRALAYA",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00235669",
+      "name": "Nazhifah",
+      "position": "SUPERVISOR OPERASIONAL & LAYANAN",
+      "uker": "KCP TUGUMULYO",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00240014",
+      "name": "Nopry Oktary Arisandy",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "SIRAH PULAU PADANG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00240541",
+      "name": "Putri Oktari",
+      "position": "PEKERJA DALAM PENUGASAN KHUSUS",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00248875",
+      "name": "Dovianda Sanjaya",
+      "position": "RM MIKRO",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00264009",
+      "name": "Andre Apriansyah",
+      "position": "ASSOCIATE MANTRI 2",
+      "uker": "TANJUNG BATU",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00265567",
+      "name": "Aravik Oktariansyah",
+      "position": "ASSOCIATE MANTRI 2",
+      "uker": "KEMANG INDAH",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00271669",
+      "name": "Khoirul Akbar",
+      "position": "MANTRI RECOVERY",
+      "uker": "KAYU AGUNG I",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00271671",
+      "name": "M.Iqbal HS",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "TUGU MULYO",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00273402",
+      "name": "Nuraini",
+      "position": "SUPERVISOR OPERASIONAL & LAYANAN",
+      "uker": "TANJUNG RAJA",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00274859",
+      "name": "Muhammad Ismanto",
+      "position": "RM SME QUALITY",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00275260",
+      "name": "Berri Muzzakir",
+      "position": "RM SME TYPE A",
+      "uker": "KCP INDRALAYA",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00275261",
+      "name": "Abdul Rahman",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "CATUR TUNGGAL",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00275424",
+      "name": "Maman Pirmansa",
+      "position": "PETUGAS PENUNJANG BISNIS",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00275426",
+      "name": "Dodi Sulaiman Akip",
+      "position": "ASSOCIATE MANTRI 2",
+      "uker": "TANJUNG LUBUK",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00281773",
+      "name": "Muhammad Romzi Noor",
+      "position": "RM SME TYPE A",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00281774",
+      "name": "Benny Pranata",
+      "position": "MANTRI RECOVERY",
+      "uker": "PAMPANGAN",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00281775",
+      "name": "Novrin Muhammad Saman",
+      "position": "MANTRI RECOVERY",
+      "uker": "TANJUNG BATU",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00287199",
+      "name": "Jeri Ropiandi",
+      "position": "RM MIKRO",
+      "uker": "KCP TUGUMULYO",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00287201",
+      "name": "Mery Oktarina",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "SIRAH PULAU PADANG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00289099",
+      "name": "Reta Novratilova",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "TANJUNG LUBUK",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00289794",
+      "name": "Roiyan Firdaus",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "CATUR TUNGGAL",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00299149",
+      "name": "Tiara Dwi Novianti",
+      "position": "SUPERVISOR OPERASIONAL & LAYANAN",
+      "uker": "LUBUK SEBERUK",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00299151",
+      "name": "Doni Irawan",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "KEMANG INDAH",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00299919",
+      "name": "Yusri Juliansyah",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "SUMBER HIDUP",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00301328",
+      "name": "Fernandus Pramiko",
+      "position": "RMFT BUSINESS",
+      "uker": "KCP TUGUMULYO",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00304618",
+      "name": "Gusti Randa",
+      "position": "RM SME TYPE A",
+      "uker": "KCP TUGUMULYO",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00315161",
+      "name": "Roby Romadon",
+      "position": "RM MIKRO",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00315381",
+      "name": "M. Yunus Fatrabaya",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "PEMATANG PANGGANG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00322255",
+      "name": "Siska Novita Sari",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "LUBUK SEBERUK",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00322258",
+      "name": "Gusti Destriana",
+      "position": "SUPERVISOR OPERASIONAL & LAYANAN",
+      "uker": "INDRALAYA",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00328351",
+      "name": "Mayasari",
+      "position": "CUSTOMER SERVICE",
+      "uker": "KAYU AGUNG I",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00328354",
+      "name": "Rahma Ayu Antika",
+      "position": "CUSTOMER SERVICE",
+      "uker": "TANJUNG RAJA",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00328357",
+      "name": "Bunga Islamiati",
+      "position": "CUSTOMER SERVICE",
+      "uker": "TANJUNG BATU",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00328367",
+      "name": "Muhammad Rehan Ilyasa",
+      "position": "CUSTOMER SERVICE",
+      "uker": "KAYU AGUNG I",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00332918",
+      "name": "Nada Triyani",
+      "position": "CUSTOMER SERVICE",
+      "uker": "KCP TUGUMULYO",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00332919",
+      "name": "Fifi Fariska",
+      "position": "CUSTOMER SERVICE",
+      "uker": "SIMPANG TIMBANGAN",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00332922",
+      "name": "Eva Juliana",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "PEMATANG PANGGANG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00332923",
+      "name": "Yeni Puspita",
+      "position": "SUPERVISOR OPERASIONAL & LAYANAN",
+      "uker": "TANJUNG BATU",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00335631",
+      "name": "Indriansyah",
+      "position": "CUSTOMER SERVICE",
+      "uker": "PAMPANGAN",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00335633",
+      "name": "Rizka Aniza",
+      "position": "UNIVERSAL BANKER",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00335634",
+      "name": "Putri Misbawati",
+      "position": "CUSTOMER SERVICE",
+      "uker": "SIRAH PULAU PADANG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00336811",
+      "name": "Indah Suci Lestari",
+      "position": "CUSTOMER SERVICE",
+      "uker": "CINTA MANIS",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00338069",
+      "name": "Yudhi Saputra",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "CINTA MANIS",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00338206",
+      "name": "Akhmad Chandra Asepta",
+      "position": "PEKERJA KHUSUS",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00340773",
+      "name": "Nazza Miftahul Jannah",
+      "position": "CUSTOMER SERVICE",
+      "uker": "KCP INDRALAYA",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00341494",
+      "name": "Ayu Meiliani",
+      "position": "CUSTOMER SERVICE",
+      "uker": "SIMPANG TIMBANGAN",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00343351",
+      "name": "Dio Saputra",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "SUMBER HIDUP",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00349665",
+      "name": "Annisa Shevania Zahara",
+      "position": "CUSTOMER SERVICE",
+      "uker": "LUBUK SEBERUK",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00352175",
+      "name": "Isabella Hasmarini",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "INDRALAYA",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00357407",
+      "name": "Heri Sanjaya",
+      "position": "SUPERVISOR OPERASIONAL & LAYANAN",
+      "uker": "TUGU MULYO",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00358095",
+      "name": "Nanditha Eka Fitri",
+      "position": "CUSTOMER SERVICE",
+      "uker": "SIRAH PULAU PADANG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00362107",
+      "name": "Indah Nispi Handayani",
+      "position": "CUSTOMER SERVICE",
+      "uker": "KEMANG INDAH",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00362486",
+      "name": "Chomsiatunnisa",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "SIMPANG TIMBANGAN",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00364769",
+      "name": "Claudia Pertiwi",
+      "position": "CUSTOMER SERVICE",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00364794",
+      "name": "Hardiyanti",
+      "position": "TELLER",
+      "uker": "KAYU AGUNG I",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00364799",
+      "name": "M. T Prawiratama Wijaya",
+      "position": "TELLER",
+      "uker": "SIMPANG TIMBANGAN",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00366237",
+      "name": "Enggar Tyastuty",
+      "position": "PETUGAS OPERASIONAL KREDIT",
+      "uker": "KCP TUGUMULYO",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00368797",
+      "name": "Kurniati Tri Mareta",
+      "position": "PJ. SUPERVISOR OPERASIONAL & LAYANAN",
+      "uker": "CINTA MANIS",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00370010",
+      "name": "Halimah Tusakdiyah",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "TANJUNG BATU",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00371690",
+      "name": "Shinta Bella T. B",
+      "position": "CUSTOMER SERVICE",
+      "uker": "KCP TUGUMULYO",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00373713",
+      "name": "Adinda Faranisa",
+      "position": "CUSTOMER SERVICE",
+      "uker": "INDRALAYA",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00373714",
+      "name": "Putri Indah Sari",
+      "position": "CUSTOMER SERVICE",
+      "uker": "INDRALAYA",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00373883",
+      "name": "Shella Gita Parissa",
+      "position": "CUSTOMER SERVICE",
+      "uker": "TUGU MULYO",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00375634",
+      "name": "Vina Oktarianti",
+      "position": "CUSTOMER SERVICE",
+      "uker": "LUBUK SEBERUK",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00375665",
+      "name": "Nabila Febriyanti Putri Iswan",
+      "position": "CUSTOMER SERVICE",
+      "uker": "TANJUNG RAJA",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00375667",
+      "name": "Adela Rastavela",
+      "position": "TELLER",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00375892",
+      "name": "Aulia Nurkolifah",
+      "position": "CUSTOMER SERVICE",
+      "uker": "PEMATANG PANGGANG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00375908",
+      "name": "Diki Munawir",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "LUBUK SEBERUK",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00377473",
+      "name": "Alfina Suliswati",
+      "position": "CUSTOMER SERVICE",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00377491",
+      "name": "Nia Selistia",
+      "position": "CUSTOMER SERVICE",
+      "uker": "SUMBER HIDUP",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00377536",
+      "name": "Pratiwi Amalia",
+      "position": "TELLER",
+      "uker": "INDRALAYA",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00378374",
+      "name": "Stephani Syahnaz Elshanda",
+      "position": "TELLER",
+      "uker": "SUMBER HIDUP",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00379454",
+      "name": "Talitha Amanda Permata Wijaya",
+      "position": "TELLER",
+      "uker": "TANJUNG RAJA",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00379455",
+      "name": "Ridho Kurniatullah",
+      "position": "TELLER",
+      "uker": "KCP TUGUMULYO",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00379456",
+      "name": "Ida Marshella",
+      "position": "TELLER",
+      "uker": "LUBUK SEBERUK",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00379506",
+      "name": "Aulia Rahmani Putri",
+      "position": "CUSTOMER SERVICE",
+      "uker": "SUMBER HIDUP",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00379508",
+      "name": "Amelia Miranda",
+      "position": "CUSTOMER SERVICE",
+      "uker": "KCP INDRALAYA",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00380313",
+      "name": "Achmad Bayu Hardiansyah",
+      "position": "ASSOCIATE MANTRI 1",
+      "uker": "PEMATANG PANGGANG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00380675",
+      "name": "Putri Ratna Dewi",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "KAYU AGUNG I",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00380701",
+      "name": "Sharda Devina Eka Putri Harditianto",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "CINTA MANIS",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00380712",
+      "name": "Rama Revanza",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "SIMPANG TIMBANGAN",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00380782",
+      "name": "Kiki Rizki Amelia",
+      "position": "SUPERVISOR OPERASIONAL & LAYANAN",
+      "uker": "MUARA BURNAI",
+      "kategori": "BOH/MANAJER/SVP"
+    },
+    {
+      "pn": "00381146",
+      "name": "Ridha Maharani",
+      "position": "TELLER",
+      "uker": "MUARA BURNAI",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00381155",
+      "name": "Yeni Safera",
+      "position": "TELLER",
+      "uker": "TANJUNG LUBUK",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00381185",
+      "name": "Amanda Putri Gianti",
+      "position": "TELLER",
+      "uker": "KEMANG INDAH",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00381746",
+      "name": "Muhammad Taufiqurrahman",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "CATUR TUNGGAL",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00381759",
+      "name": "Vera Mayrani",
+      "position": "CUSTOMER SERVICE",
+      "uker": "TANJUNG LUBUK",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00382050",
+      "name": "Budi Hr",
+      "position": "MANTRI RECOVERY",
+      "uker": "KEMANG INDAH",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00382690",
+      "name": "M. Ilham Akbar",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "SUMBER HIDUP",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00382701",
+      "name": "Jefrison Juahres",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "KEMANG INDAH",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00383638",
+      "name": "Nana Mardiana",
+      "position": "TELLER",
+      "uker": "TUGU MULYO",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00384399",
+      "name": "Eko Ardiyanto",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "CINTA MANIS",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00385132",
+      "name": "Della Dwi Rani",
+      "position": "TELLER",
+      "uker": "SIRAH PULAU PADANG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00385527",
+      "name": "Tasya Kartika Maharani",
+      "position": "TELLER",
+      "uker": "TUGU MULYO",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00385528",
+      "name": "Fara Nourachma",
+      "position": "TELLER",
+      "uker": "TANJUNG BATU",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00385529",
+      "name": "Muhammad Sholahuddin Al-ayubi",
+      "position": "CUSTOMER SERVICE",
+      "uker": "TANJUNG BATU",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00385890",
+      "name": "Muhammad Rusdi",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "SUMBER HIDUP",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00385891",
+      "name": "Haryadi",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "CATUR TUNGGAL",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00385909",
+      "name": "Hendra Saputra",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "MUARA BURNAI",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00386440",
+      "name": "Rachmat Alvindo",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "MUARA BURNAI",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00386908",
+      "name": "Naura Syandrina",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "INDRALAYA",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00386922",
+      "name": "Ade Candra Sadana",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "MUARA BURNAI",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00386924",
+      "name": "Muhammad Muhaimin",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "LUBUK SEBERUK",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00386940",
+      "name": "Tiara Aprillia",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "TANJUNG RAJA",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00386949",
+      "name": "Hengki Kuntara Titoni",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "TANJUNG BATU",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00387082",
+      "name": "Yessy Retno Ardianti",
+      "position": "CUSTOMER SERVICE",
+      "uker": "MUARA BURNAI",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00388552",
+      "name": "Tarom Sutiyoso",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "LUBUK SEBERUK",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00388685",
+      "name": "Aditya Teguh Mahendra",
+      "position": "TELLER",
+      "uker": "PEMATANG PANGGANG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00390946",
+      "name": "Anti Leca",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "KAYU AGUNG I",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00390967",
+      "name": "Albert Janedo",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "TANJUNG BATU",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00391125",
+      "name": "M Shendi Fachrul Rozi",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "MUARA BURNAI",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00391126",
+      "name": "Cikmat Sepriadi",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "CATUR TUNGGAL",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00391364",
+      "name": "Indah Syifa Maharani",
+      "position": "PETUGAS OPERASIONAL KREDIT",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00391382",
+      "name": "Feby Ramadayanti",
+      "position": "PETUGAS OPERASIONAL KREDIT",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00391810",
+      "name": "Regina Patrisia",
+      "position": "TELLER",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00392385",
+      "name": "Wilman Jazz Irawan",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "SUMBER HIDUP",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00394443",
+      "name": "Intan Wanda Permata",
+      "position": "TELLER",
+      "uker": "CINTA MANIS",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00394588",
+      "name": "Bagus Alfarizi",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "KEMANG INDAH",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00395756",
+      "name": "Astute Alex",
+      "position": "RM SME TYPE A",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00396820",
+      "name": "Dewari Nandita Virginia",
+      "position": "TELLER",
+      "uker": "KCP INDRALAYA",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00396870",
+      "name": "Clara Oktariani",
+      "position": "TELLER",
+      "uker": "TANJUNG BATU",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00399221",
+      "name": "Windy Amalia",
+      "position": "RMFT INDIVIDU BRANCH",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00399447",
+      "name": "Ikhsan Saleh Makatita",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "LUBUK SEBERUK",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00399450",
+      "name": "Alifia Naura Nazifah",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "SUMBER HIDUP",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00399865",
+      "name": "Sodikin",
+      "position": "CUSTOMER SERVICE",
+      "uker": "TUGU MULYO",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00401374",
+      "name": "Zaskia Mardiana",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "TUGU MULYO",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00401542",
+      "name": "Apriyadi",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "TANJUNG LUBUK",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00401854",
+      "name": "Fatimah Azzahra",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "KEMANG INDAH",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00402247",
+      "name": "Rahmat Maulana Akbar",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "PAMPANGAN",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00402275",
+      "name": "Kalvin Julio Pranata",
+      "position": "COLLECTION ASSISTANT",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00402846",
+      "name": "Aisyah Regina Hidayat",
+      "position": "RM SME TYPE A",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00403100",
+      "name": "Yuni Rahayu Ningsih",
+      "position": "RMFT INDIVIDU BRANCH",
+      "uker": "KCP INDRALAYA",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00403102",
+      "name": "Fajriansyah",
+      "position": "RM SME TYPE A",
+      "uker": "KCP TUGUMULYO",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00403258",
+      "name": "Tasya Manna Salsabila",
+      "position": "CUSTOMER SERVICE",
+      "uker": "KEMANG INDAH",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00403266",
+      "name": "Prima Widya Astuti",
+      "position": "CUSTOMER SERVICE",
+      "uker": "CINTA MANIS",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00403269",
+      "name": "Harjoko Pratama",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "PEMATANG PANGGANG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00403270",
+      "name": "Yoga Firdaus Jaya",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "PEMATANG PANGGANG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00403271",
+      "name": "Yuda Bakti",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "TUGU MULYO",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00403286",
+      "name": "Jaya Ardinata",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "TANJUNG RAJA",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00403337",
+      "name": "Novi Permata",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "LUBUK SEBERUK",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00403338",
+      "name": "Rifky Abiyyu Hibatullah",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "CATUR TUNGGAL",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00404490",
+      "name": "M. Nur Wirajaya",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "MUARA BURNAI",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00404616",
+      "name": "Muhammad Tegar Rahmatullah",
+      "position": "TELLER",
+      "uker": "PAMPANGAN",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00404670",
+      "name": "Adi Tiansa",
+      "position": "CUSTOMER SERVICE",
+      "uker": "CATUR TUNGGAL",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00404672",
+      "name": "Muhammad Nauval Aldenry",
+      "position": "TELLER",
+      "uker": "CATUR TUNGGAL",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00404673",
+      "name": "Tiara Syifa Salsabila",
+      "position": "TELLER",
+      "uker": "SIRAH PULAU PADANG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00404877",
+      "name": "Dimas Septian Wardani",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "TUGU MULYO",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00404883",
+      "name": "Bagas Adi Roylando",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "INDRALAYA",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00404889",
+      "name": "M Zakaria Kurniawan",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "TANJUNG BATU",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00405844",
+      "name": "Rifko Akbar",
+      "position": "PETUGAS PENUNJANG BISNIS",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00406171",
+      "name": "Bintara Sakti",
+      "position": "RMFT INDIVIDU UNIT",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00406178",
+      "name": "Prayogi Santoso",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "TUGU MULYO",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00406179",
+      "name": "Azmi Kasyfillah",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "CINTA MANIS",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00406528",
+      "name": "Annisa Rizky Liyani",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "CINTA MANIS",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00406875",
+      "name": "Muhamad Yuda Prasetyo",
+      "position": "CUSTOMER SERVICE",
+      "uker": "CATUR TUNGGAL",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00406886",
+      "name": "Sephiani",
+      "position": "CUSTOMER SERVICE",
+      "uker": "PEMATANG PANGGANG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00407214",
+      "name": "Ahmad Fauzan Nazri",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "SIMPANG TIMBANGAN",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00407422",
+      "name": "Sisil Lindia Putri",
+      "position": "TELLER",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00408323",
+      "name": "Septiani Indriyati",
+      "position": "TELLER",
+      "uker": "SIMPANG TIMBANGAN",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00408324",
+      "name": "Muhammad Tsabita Robani",
+      "position": "PETUGAS PENUNJANG BISNIS",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00408405",
+      "name": "Prisca Laura",
+      "position": "TELLER",
+      "uker": "KAYU AGUNG I",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00408869",
+      "name": "Adel Regina Octasya",
+      "position": "PETUGAS OPERASIONAL KREDIT",
+      "uker": "KC KAYU AGUNG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00408877",
+      "name": "Ropike Rosada",
+      "position": "PETUGAS OPERASIONAL KREDIT",
+      "uker": "KCP INDRALAYA",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00408957",
+      "name": "Muhammad Agung Lisdiawan",
+      "position": "RM SME TYPE A",
+      "uker": "KCP TUGUMULYO",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00408960",
+      "name": "Dimas Agil Demara",
+      "position": "TELLER",
+      "uker": "PEMATANG PANGGANG",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00410521",
+      "name": "Rini Andika",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "TANJUNG LUBUK",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00411812",
+      "name": "Indrike Febriyanti",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "TUGU MULYO",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00411993",
+      "name": "Ricke Dwi Ningsih",
+      "position": "TELLER",
+      "uker": "INDRALAYA",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00411995",
+      "name": "Laura Nindya Asmanata",
+      "position": "CUSTOMER SERVICE",
+      "uker": "MUARA BURNAI",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00412139",
+      "name": "Zweta Anggun Syafara",
+      "position": "TELLER",
+      "uker": "LUBUK SEBERUK",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00412477",
+      "name": "Selvy Dwi Nayoan",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "KAYU AGUNG I",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00413024",
+      "name": "Shafa Dinda Umara",
+      "position": "RM SME TYPE A",
+      "uker": "KCP INDRALAYA",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00413341",
+      "name": "A Hendri Ardiansyah",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "CATUR TUNGGAL",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00413395",
+      "name": "Karda Reza",
+      "position": "CUSTOMER SERVICE",
+      "uker": "TANJUNG LUBUK",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00413396",
+      "name": "Iva Andini Putri",
+      "position": "TELLER",
+      "uker": "TANJUNG RAJA",
+      "kategori": "STAF LAINNYA"
+    },
+    {
+      "pn": "00413618",
+      "name": "Muhammad Azhari Ramadhan",
+      "position": "JUNIOR ASSOCIATE MANTRI",
+      "uker": "LUBUK SEBERUK",
+      "kategori": "STAF LAINNYA"
+    }
+  ]
+}
