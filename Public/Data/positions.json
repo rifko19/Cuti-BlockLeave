@@ -4,21 +4,21 @@
       "id": "POS001",
       "name": "SVP",
       "level": "executive",
-      "max_per_week": 2,
+      "max_per_week": 1,
       "description": "Senior Vice President"
     },
     {
       "id": "POS002",
       "name": "MANAJER",
       "level": "management",
-      "max_per_week": 2,
+      "max_per_week": 1,
       "description": "Manager"
     },
     {
       "id": "POS003",
       "name": "SOL",
       "level": "management",
-      "max_per_week": 2,
+      "max_per_week": 1,
       "description": "Service Operation Lead"
     }
   ],

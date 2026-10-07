@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="id">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,17 +7,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
   <header class="top">
     <div>
       <h1 style="text-align: center;">Jadwal Cuti Block Leave Pekerja Definitif BO Kayu Agung</h1>
       <p>Pengajuan cuti tahun 2027, minggu 1-3, Senin sampai Jumat</p>
-    </div>
-    <div class="auth">
-      <span id="adminLabel" hidden>Admin</span>
-      <button type="button" id="btnLogin" class="btn light">Login admin</button>
-      <button type="button" id="btnLogout" class="btn light" hidden>Keluar</button>
     </div>
   </header>
 
@@ -30,7 +23,7 @@
           <div class="combo">
             <label for="employee_name">Nama pegawai (cari nama atau PN)</label>
             <input type="text" id="employee_name" placeholder="Ketik nama atau PN..." autocomplete="off" required
-              role="combobox" aria-expanded="false" aria-controls="empList">
+                   role="combobox" aria-expanded="false" aria-controls="empList">
             <ul id="empList" class="combo-list" role="listbox" hidden></ul>
           </div>
           <label>PN
@@ -67,43 +60,20 @@
         <h2>Ketersediaan minggu</h2>
         <select id="monthFilter" aria-label="Pilih bulan"></select>
       </div>
-      <div class="scroll">
-        <table id="weekTable"></table>
-      </div>
+      <div class="scroll"><table id="weekTable"></table></div>
     </section>
 
     <section class="panel">
       <div class="row">
         <h2>Data pengajuan</h2>
-        <button type="button" id="btnExport" class="btn" hidden>Unduh Excel</button>
       </div>
-      <div class="scroll">
-        <table id="leaveTable"></table>
-      </div>
+      <div class="scroll"><table id="leaveTable"></table></div>
     </section>
   </main>
 
-  <dialog id="loginDialog">
-    <form id="loginForm" autocomplete="off">
-      <h2>Login admin</h2>
-      <label>Username
-        <input type="text" id="loginUser" required>
-      </label>
-      <label>Password
-        <input type="password" id="loginPass" required>
-      </label>
-      <div id="loginMsg" class="err" role="alert"></div>
-      <div class="actions">
-        <button type="button" id="loginCancel" class="btn">Batal</button>
-        <button type="submit" class="btn primary">Masuk</button>
-      </div>
-    </form>
-  </dialog>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js"></script>
-  <script src="JS/Export.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="JS/supabase-config.js"></script>
   <script src="JS/App.js"></script>
 </body>
-
 </html>

@@ -1,10 +1,10 @@
 // ===== Konfigurasi =====
-const DATA_PATH = '../Data/';
-const STORAGE_KEY = 'blockleave_leaves';
+const ADMIN_PAGE = window.ADMIN_PAGE === true;   // true hanya di halaman /pathadmin/
+const DATA_PATH = window.DATA_PATH || 'Data/';   // folder Data berada di dalam Public
 const YEAR = 2027;
 // Kategori (kolom KATEGORI di Excel) yang dihitung kuota 2 orang per minggu (digabung). Selain ini kuota 5 orang.
-const QUOTA2_KATEGORI = ['BOH/MANAJER/SVP'];
-const LIMIT = { management: 2, staff: 5 };     // ubah di sini jika aturan berbeda
+const QUOTA2_KATEGORI = ['BOH/MANAJER/SVP/RM/ADK'];
+const LIMIT = { management: 1, staff: 5 };   // nilai awal. Nilai sebenarnya dibaca dari tabel quota_limits di Supabase
 const ALLOWED_WEEKS = [1, 2, 3];
 const DAY_NAMES = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 const MONTHS = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
@@ -65,7 +65,7 @@ function validate(f) {
   const id = f.employee_id.toUpperCase();
   const current = employeesInWeek(iso(monday), group);
   if (!current.has(id) && current.size >= LIMIT[group]) {
-    return { error: `Kuota minggu ini penuh (${current.size}/${LIMIT[group]} orang untuk ${group === 'management' ? 'BOH/Manajer/SVP' : 'jabatan lainnya'}).` };
+    return { error: `Kuota minggu ini penuh (${current.size}/${LIMIT[group]} orang untuk ${group === 'management' ? 'BOH/MANAJER/SVP/RM/ADK' : 'jabatan lainnya'}).` };
   }
 
   const dates = [];
@@ -139,15 +139,26 @@ function setupPickers() {
 
 const redrawPickers = () => { startPicker?.redraw(); endPicker?.redraw(); };
 
-// ===== Penyimpanan (localStorage) =====
-const saveLeaves = () => localStorage.setItem(STORAGE_KEY, JSON.stringify(leaves));
-const loadLeaves = () => {
-  try {
-    const raw = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
-    return raw.map((l) => (l.leave_start ? l : { ...l, leave_start: l.leave_date, leave_end: l.leave_date, leave_days: 1 }));
-  } catch { return []; }
-};
-const nextId = () => 'CUT' + String(leaves.reduce((m, l) => Math.max(m, parseInt(l.id.slice(3), 10) || 0), 0) + 1).padStart(3, '0');
+// ===== Supabase (database bersama) =====
+const db = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+let adminSession = null;
+
+async function loadLeaves() {
+  let all = [];
+  for (let from = 0; ; from += 1000) {   // PostgREST membatasi 1000 baris per permintaan
+    const { data, error } = await db.from('leaves').select('*').order('leave_start').order('id').range(from, from + 999);
+    if (error) { showMsg('Gagal memuat data pengajuan: ' + error.message, 'err'); return; }
+    all = all.concat(data);
+    if (data.length < 1000) break;
+  }
+  leaves = all;
+}
+
+// Batas kuota dibaca dari database, agar kalender dan server selalu sama
+async function loadLimits() {
+  const { data } = await db.from('quota_limits').select('*');
+  (data || []).forEach((r) => { LIMIT[r.quota_group] = r.max_per_week; });
+}
 
 // ===== Render =====
 function renderWeeks() {
@@ -167,13 +178,13 @@ function renderWeeks() {
       const cell = (g) => {
         const used = employeesInWeek(iso(m), g).size;
         const full = used >= LIMIT[g];
-        return `<td data-label="${g === 'management' ? 'BOH / Manajer / SVP' : 'Jabatan lainnya'}"><span class="tag ${full ? 'full' : 'open'}">${used}/${LIMIT[g]}</span> ${full ? 'penuh' : 'sisa ' + (LIMIT[g] - used)}</td>`;
+        return `<td data-label="${g === 'management' ? 'BOH / Manajer / SVP / RM / ADK' : 'Jabatan lainnya'}"><span class="tag ${full ? 'full' : 'open'}">${used}/${LIMIT[g]}</span> ${full ? 'penuh' : 'sisa ' + (LIMIT[g] - used)}</td>`;
       };
       status = cell('management') + cell('staff');
     }
     rows.push(`<tr><td data-label="Minggu">Minggu ${week}</td><td data-label="Tanggal">${fmtShort(m)} - ${fmtShort(fri)}</td>${status}</tr>`);
   }
-  $('weekTable').innerHTML = `<thead><tr><th>Minggu</th><th>Tanggal</th><th>BOH / Manajer / SVP</th><th>Jabatan lainnya</th></tr></thead><tbody>${rows.join('')}</tbody>`;
+  $('weekTable').innerHTML = `<thead><tr><th>Minggu</th><th>Tanggal</th><th>BOH / Manajer / SVP / RM / ADK</th><th>Jabatan lainnya</th></tr></thead><tbody>${rows.join('')}</tbody>`;
 }
 
 function renderLeaves() {
@@ -181,14 +192,14 @@ function renderLeaves() {
   const sorted = [...leaves].sort((a, b) => a.leave_start.localeCompare(b.leave_start));
   const body = sorted.length ? sorted.map((l) => `
     <tr>
-      <td data-label="ID">${esc(l.id)}</td><td data-label="Nama">${esc(l.employee_name)}</td><td data-label="ID Pegawai">${esc(l.employee_id)}</td>
+      <td data-label="ID">${esc(l.id)}</td><td data-label="Nama">${esc(l.employee_name)}</td><td data-label="Personal Number">${esc(l.employee_id)}</td>
       <td data-label="Jabatan">${esc(l.position)}</td><td data-label="Uker">${esc(l.uker)}</td>
       <td data-label="Tanggal Mulai">${esc(l.leave_start)}</td><td data-label="Tanggal Selesai">${esc(l.leave_end)}</td>
       <td data-label="Jumlah Hari">${l.leave_days} hari</td><td data-label="Minggu">${l.leave_week}</td>
       <td data-label="Catatan">${esc(l.notes)}</td>
       ${admin ? `<td data-label=""><button class="btn small" data-del="${esc(l.id)}">Hapus</button></td>` : ''}
     </tr>`).join('') : `<tr><td class="empty" colspan="10">Belum ada pengajuan cuti.</td></tr>`;
-  $('leaveTable').innerHTML = `<thead><tr><th>ID</th><th>Nama</th><th>ID Pegawai</th><th>Jabatan</th><th>Uker</th><th>Tanggal Mulai</th><th>Tanggal Selesai</th><th>Jumlah Hari</th><th>Minggu</th><th>Catatan</th>${admin ? '<th></th>' : ''}</tr></thead><tbody>${body}</tbody>`;
+  $('leaveTable').innerHTML = `<thead><tr><th>ID</th><th>Nama</th><th>Personal Number</th><th>Jabatan</th><th>Uker</th><th>Tanggal Mulai</th><th>Tanggal Selesai</th><th>Jumlah Hari</th><th>Minggu</th><th>Catatan</th>${admin ? '<th></th>' : ''}</tr></thead><tbody>${body}</tbody>`;
 }
 
 const refresh = () => { renderWeeks(); renderLeaves(); redrawPickers(); };
@@ -200,7 +211,7 @@ function showMsg(text, type) {
 }
 
 // ===== Event =====
-function onSubmit(e) {
+async function onSubmit(e) {
   e.preventDefault();
   if (!selectedEmp) return showMsg('Pilih nama pegawai dari hasil pencarian (database pegawai).', 'err');
   const f = {
@@ -215,57 +226,41 @@ function onSubmit(e) {
   const res = validate(f);
   if (res.error) return showMsg(res.error, 'err');
 
-  leaves.push({
-    id: nextId(),
-    employee_name: f.name,
-    employee_id: f.employee_id,
-    position: f.position,
-    quota_group: currentGroup(),
-    uker: f.uker,
-    leave_start: f.start,
-    leave_end: f.end,
-    leave_days: res.dates.length,
-    leave_week: res.week,
-    submission_date: iso(new Date()),
-    notes: f.notes,
+  const btn = e.target.querySelector('button[type="submit"]');
+  btn.disabled = true;
+  const { error } = await db.rpc('submit_leave', {
+    p_name: f.name, p_pn: f.employee_id, p_position: f.position, p_uker: f.uker,
+    p_group: currentGroup(), p_start: f.start, p_end: f.end, p_notes: f.notes,
   });
-  saveLeaves();
+  btn.disabled = false;
+  if (error) { await loadLeaves(); refresh(); return showMsg(error.message, 'err'); }   // pesan dari server, mis. kuota penuh
+
   e.target.reset();
   selectedEmp = null;
   startPicker.clear(); endPicker.clear();
+  await loadLeaves();
   showMsg(`Pengajuan berhasil disimpan (${res.dates.length} hari kerja).`, 'ok');
   refresh();
 }
 
-function onTableClick(e) {
+async function onTableClick(e) {
   if (!isAdmin()) return;
   const id = e.target.dataset.del;
   if (!id || !confirm('Hapus pengajuan ini?')) return;
-  leaves = leaves.filter((l) => l.id !== id);
-  saveLeaves(); refresh();
+  const { error } = await db.from('leaves').delete().eq('id', id);
+  if (error) { alert('Gagal menghapus: ' + error.message); return; }
+  await loadLeaves(); refresh();
 }
 
-// ===== Login admin sederhana =====
-// Ganti password: buka Console browser (F12) dan jalankan:
-// crypto.subtle.digest('SHA-256', new TextEncoder().encode('PASSWORD_BARU')).then(b => console.log([...new Uint8Array(b)].map(x => x.toString(16).padStart(2, '0')).join('')))
-// lalu tempel hasilnya ke ADMIN_HASH. Password awal: admin123
-const ADMIN_USER = '@dm1N$9*7';
-const ADMIN_HASH = '240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9';
-const AUTH_KEY = 'blockleave_admin';
-const isAdmin = () => sessionStorage.getItem(AUTH_KEY) === '1';
-
-async function sha256(text) {
-  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
-  return [...new Uint8Array(buf)].map((x) => x.toString(16).padStart(2, '0')).join('');
-}
+// ===== Login admin (Supabase Auth) =====
+const isAdmin = () => ADMIN_PAGE && !!adminSession;
 
 async function onLogin(e) {
   e.preventDefault();
   const msg = $('loginMsg');
-  if (!window.crypto || !crypto.subtle) { msg.textContent = 'Login butuh koneksi aman (https atau localhost).'; return; }
-  const ok = $('loginUser').value.trim() === ADMIN_USER && (await sha256($('loginPass').value)) === ADMIN_HASH;
-  if (!ok) { msg.textContent = 'Username atau password salah.'; return; }
-  sessionStorage.setItem(AUTH_KEY, '1');
+  const { data, error } = await db.auth.signInWithPassword({ email: $('loginUser').value.trim(), password: $('loginPass').value });
+  if (error) { msg.textContent = 'Email atau password salah.'; return; }
+  adminSession = data.session;
   $('loginForm').reset(); msg.textContent = '';
   $('loginDialog').close();
   applyAuth();
@@ -273,10 +268,12 @@ async function onLogin(e) {
 
 function applyAuth() {
   const admin = isAdmin();
-  $('btnExport').hidden = !admin;
-  $('btnLogin').hidden = admin;
-  $('btnLogout').hidden = !admin;
-  $('adminLabel').hidden = !admin;
+  if (ADMIN_PAGE) {
+    $('btnExport').hidden = !admin;
+    $('btnLogin').hidden = admin;
+    $('btnLogout').hidden = !admin;
+    $('adminLabel').hidden = !admin;
+  }
   renderLeaves();
 }
 
@@ -352,7 +349,12 @@ async function init() {
   setupEmployeeSearch();
   $('monthFilter').innerHTML = MONTHS.map((m, i) => `<option value="${i}">${m} ${YEAR}</option>`).join('');
 
-  leaves = loadLeaves();
+  if (ADMIN_PAGE) {
+    const { data: sess } = await db.auth.getSession();
+    adminSession = sess.session;
+  }
+  await loadLimits();
+  await loadLeaves();
   $('leaveForm').addEventListener('submit', onSubmit);
   setupPickers();
   // Kuota bergantung pada jabatan dan ID pegawai, jadi kalender digambar ulang saat keduanya berubah
@@ -360,11 +362,14 @@ async function init() {
   $('employee_id').addEventListener('input', redrawPickers);
   $('monthFilter').addEventListener('change', renderWeeks);
   $('leaveTable').addEventListener('click', onTableClick);
+  if (ADMIN_PAGE) {
   $('btnExport').addEventListener('click', () => exportLeavesToExcel(leaves));
   $('btnLogin').addEventListener('click', () => $('loginDialog').showModal());
   $('loginCancel').addEventListener('click', () => $('loginDialog').close());
-  $('btnLogout').addEventListener('click', () => { sessionStorage.removeItem(AUTH_KEY); applyAuth(); });
+  $('btnLogout').addEventListener('click', async () => { await db.auth.signOut(); adminSession = null; applyAuth(); });
   $('loginForm').addEventListener('submit', onLogin);
+  }
+  window.addEventListener('focus', async () => { await loadLeaves(); refresh(); });   // segarkan kuota saat kembali ke tab
   refresh();
   applyAuth();
 }

@@ -12,6 +12,7 @@ function exportLeavesToExcel(leaves) {
     'Nama Pegawai': l.employee_name,
     'Pn': l.employee_id,
     'Unit Kerja': l.uker,
+    'Jabatan': l.position,
     'Tanggal Mulai Cuti': fmtId(l.leave_start),
     'Tanggal Selesai Cuti': fmtId(l.leave_end),
     'Jumlah Hari': l.leave_days,
