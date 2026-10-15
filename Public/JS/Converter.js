@@ -95,7 +95,7 @@ const ukerJson = () => ({
   notes: 'Dibuat otomatis dari Excel. Limit pengajuan cuti berlaku untuk SELURUH UKER, bukan per UKER',
 });
 
-const positionsJson = () => ({
+const  sJson = () => ({
   categories: buildCategories(),
   positions: buildPositions(),
   rules: {
